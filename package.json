@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-jsx-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The bunch of rules which help lint react/react-native JSX elements",
   "author": {
     "name": "Dmitriy Nikolenko",
@@ -23,8 +23,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "prepublish": "npm run test",
-    "publish": "npm publish"
+    "prepublish": "npm run test"
   },
   "devDependencies": {
     "eslint": "^7.32.0",

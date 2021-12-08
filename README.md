@@ -6,7 +6,21 @@ The bunch of rules which help lint react/react-native JSX elements
 
 ## Using
 
-Include plugin name to the plugins list within your eslint config.
+1. Install the package following one of the ways (depends on you preferred package manager):
+
+```
+npm i -D eslint-plugin-jsx-helpers
+```
+
+```
+yarn add --dev -D eslint-plugin-jsx-helpers
+```
+
+```
+pnpm i -D eslint-plugin-jsx-helpers
+```
+
+2. Include plugin name to the plugins list within your eslint config.
 
 ```
 // .eslintrc.js
