@@ -1,0 +1,50 @@
+{
+  "name": "eslint-plugin-jsx-helpers",
+  "version": "1.0.0",
+  "description": "The bunch of rules which help lint react/react-native JSX elements",
+  "author": {
+    "name": "Dmitriy Nikolenko",
+    "email": "dmitriynikolenko@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitriyNikolenko/eslint-plugin-jsx-helpers"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "jsx",
+    "jsx attribute",
+    "data-test-id",
+    "testID",
+    "react",
+    "react-native"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublish": "npm run test",
+    "publish": "npm publish"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3 || ^4 || ^5 || ^6 || ^7 || ^8"
+  },
+  "jest": {
+    "testRegex": "(rules/.*\\.test)\\.js$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "\\.d\\.ts$",
+      "lib/.*"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "json"
+    ]
+  }
+}
