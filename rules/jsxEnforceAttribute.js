@@ -5,13 +5,13 @@ module.exports = {
   meta: {
     docs: {
       description:
-        "Enforce of using certain attribute for specific JSX elements",
+        "Enforce use of certain attributes on specific JSX elements",
       category: "Project specific rules",
       recommended: false,
     },
     messages: {
       jsxAttributeIsRequired:
-        'Using attribute {{attributeName}} is required for a element matched regexp "{{matchedElementName}}"',
+        'Using attribute {{attributeName}} is required for an element matching regexp "{{matchedElementName}}"',
     },
   },
   create: (context) => ({
